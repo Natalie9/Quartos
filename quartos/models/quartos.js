@@ -1,0 +1,1 @@
+Quartos = new Mongo.Collection("quartos")

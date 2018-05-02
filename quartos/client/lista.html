@@ -1,0 +1,26 @@
+<template name="lista">
+        <div class="row">
+
+           <div class="col-xs-12">
+
+              {{#each quartos}}
+             <div class="row">
+               <div class="col-xs-11">
+                  <ul>
+                      <a href="../status.hmtl"> <li> 
+                         <h3>
+                            {{nome}} 
+                         </h3>                           
+                           
+                          
+                    </li> </a> 
+                      <hr>
+                  </ul>            
+               </div>
+              </div>
+             {{/each}}
+
+           </div>
+        </div>
+        
+</template>
